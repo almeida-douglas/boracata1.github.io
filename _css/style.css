@@ -30,8 +30,16 @@
     display: flex;
     align-items: center;
 }
-#introducao h2{
+#introducao h2, #gameplay h2{
     text-transform: uppercase;
     color: #323232;
     font-weight: 400;
+}
+/*gameplay*/
+#gameplay{
+    border-top: 50px solid #50619F;
+    padding: 50px 0;
+}
+.carousel{
+    margin: 50px 0 0 0;
 }
