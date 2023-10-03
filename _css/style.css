@@ -11,6 +11,7 @@
 #a-navbar {
     background-color: #50619F;
     position: fixed;
+    padding: 0 !important;
     top: -60px;
     width: 100%;
     display: block;
@@ -194,9 +195,13 @@ footer i{
     #introducao{
         height: 100vh;
     }
-    #introducao h2, #gameplay h2, #infos h2{
+    #introducao h2, #gameplay h2{
         text-transform: uppercase;
         color: #323232;
+        font-weight: 400;
+    }
+    #infos h2{
+        text-transform: uppercase;
         font-weight: 400;
     }
     #introducao img{
@@ -215,5 +220,9 @@ footer i{
     }
     footer .download-footer{
         margin-bottom: 50px;
+    }
+    #a-navbar a{
+        width: 110px;
+        font-size: small;
     }
   }
