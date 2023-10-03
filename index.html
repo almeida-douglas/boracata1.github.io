@@ -16,11 +16,22 @@
     <main>
         <div id="a-navbar">
             <div class="container">
+            <!-- <a class="" href="javascript:void(0)" onclick="myFunction()" title="Menu navegacao"><i class="fa fa-bars"></i></a> -->
                 <a href="#inicio">Início</a>
                 <a href="#introducao">Sobre</a>
                 <a href="#gameplay">Gameplay</a>
                 <a href="#infos">Requisitos</a>
             </div>
+            <!-- 
+                
+        <div id="navM" class="" style="margin-top:46px">
+            <a href="#inicio" class="" onclick="myFunction()">Início</a>
+            <a href="#introducao" class="" onclick="myFunction()">Sobre</a>
+            <a href="#gameplay" class="" onclick="myFunction()">Gameplay</a>
+            <a href="#infos" class="" onclick="myFunction()">Requisitos</a>
+          </div>
+            
+        -->
         </div>
         <div class="container-fluid">
             <div class="row">
@@ -207,6 +218,17 @@
                 document.getElementById("a-navbar").style.top = "-100px";
             }
         }
+
+        /*
+        function myFunction() {
+            var x = document.getElementById("navM");
+            if (x.className.indexOf("a-show") == -1) {
+                x.className += " a-show";
+            } else {
+                x.className = x.className.replace(" a-show", "");
+            }
+        }
+        */
     </script>
 </body>
 
